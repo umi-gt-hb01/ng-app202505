@@ -1,0 +1,13 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html.format.wrapLineLength": 120,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnType": true, // コード整形
+  "editor.formatOnPaste": true, // コード整形
+  "editor.formatOnSave": true, // フォーマッタが有効の場合、ファイルを保存するときにフォーマットする。ファイルの遅延保存やエディターを閉じることは許可されていない
+  "editor.codeActionsOnSave": {
+    // 保存時に実行されるコードアクションの種類
+    "source.fixAll.eslint": "explicit"
+  }
+}
