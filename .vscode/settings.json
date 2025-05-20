@@ -1,7 +1,8 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "html.format.wrapLineLength": 120,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "dprint.dprint",
   "editor.tabSize": 2,
+  "editor.rulers": [80, 120],
   "editor.insertSpaces": true,
   "editor.formatOnType": true, // コード整形
   "editor.formatOnPaste": true, // コード整形
@@ -9,5 +10,10 @@
   "editor.codeActionsOnSave": {
     // 保存時に実行されるコードアクションの種類
     "source.fixAll.eslint": "explicit"
-  }
+  },
+  "html.format.wrapLineLength": 120,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.linkedEditing": true
 }
